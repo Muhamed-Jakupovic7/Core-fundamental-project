@@ -46,3 +46,6 @@ The unit tests that are within the file are essentially testing that every and a
 
 Built With
 Maven - Dependency Management
+
+Jira URL
+https://muhamed-jakupovic07.atlassian.net/jira/software/projects/FP/boards/4
