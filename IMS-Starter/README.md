@@ -17,73 +17,32 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Inventory Management System Starter Project - By Muhamed Jakupovic
+This is an inventory management system which allows users to create a customer, put items into an order and place an order. 
 
-Say what the step will be
+Getting Started
+Below I have listed the programs you will need to run this on your local device.
 
-```
-Give the example
-```
+Prerequisites
+Here is the list:
 
-And repeat
+Java 1.8 or later (excluding Java 15). Java 1.8 was used for creation
 
-```
-until finished
-```
+SQL 5.7 or later. SQL 5.7 was used for creation
 
-End with an example of getting some data out of the system or using it for a little demo
+Eclipse was used for the back end programming
 
-## Running the tests
+Tools Used
+I also used draw.io to make the ERD diagram, I used microsoft excel to make the risk assessment.
 
-Explain how to run the automated tests for this system. Break down into which tests and what they do
+Installing
+To Install, clone the project fork and then clone the date to your local Desktop or PC and save in a Git/Github folder. Using an IDE open the File Column and select Open Project From File System and select the IMS-Starter file from whichever folder you have saved the project on.
 
-### Unit Tests 
+Running the tests
+To be able to test within the IMS-Starter file navigate to the control directory and run a mvn package on the file to push any tests through the command. To manually test within Eclispse, right click on the IMS-Starter project and select run Coverage As, as a JUnit Test.
 
-Explain what these tests test, why and how to run them
+Unit Tests
+The unit tests that are within the file are essentially testing that every and all method/constructors within classes I have been able to pass the tests with at least 50% coverage.
 
-```
-Give an example
-```
-
-### Integration Tests 
-Explain what these tests test, why and how to run them
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Maven](https://maven.apache.org/) - Dependency Management
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning.
-
-## Authors
-
-* **Chris Perrins** - *Initial work* - [christophperrins](https://github.com/christophperrins)
-
-## License
-
-This project is licensed under the MIT license - see the [LICENSE.md](LICENSE.md) file for details 
-
-*For help in [Choosing a license](https://choosealicense.com/)*
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+Built With
+Maven - Dependency Management
